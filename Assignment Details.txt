@@ -1,0 +1,7 @@
+This assignment will teach you the basics of filtering I/O within the kernel, using your existing code as a base.
+
+Your program should do exactly what Programming Assignment 3 does, except:
+
+Whenever the letters “UCF” are written to the device, the device should instead write into memory - and hence make available to read - the string “Undefeated 2018 National Champions UCF”.
+Note that the second string is longer. 
+This means you cannot simply replace the string directly - you are going to have to break apart the input string to write the before-and-after, and deal properly with the changed length. 
